@@ -1,4 +1,5 @@
-#   SISTEMA DE GESTIÓN BÁSICA DE ESTUDIANTES DEV SENIOR
+#   SISTEMA DE GESTIÓN BÁSICA DE ESTUDIANTES DE ESTUDIANTES
+
  
 estudiantes = []
  
@@ -85,9 +86,11 @@ def menu():
     """Menú principal del sistema."""
     while True:
         print("\n===== SISTEMA DE GESTIÓN DE ESTUDIANTES =====")
+        print()
         print("1. Registrar estudiante")
         print("2. Mostrar todos los estudiantes")
         print("3. Salir")
+        print()
  
         opcion = input("Seleccione una opción: ").strip()
  
@@ -105,6 +108,8 @@ def menu():
  
         elif opcion == "3":
             print("\n¡Hasta luego!")
+            print(" Elaborado por: JOHN ALEXANDER PRIETO - JUAN SEBASTIAN RESTREPO")
+            print()
             break
  
         else:
